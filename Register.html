@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Nexlance Register</title>
+  <style>
+    body {
+      font-family: Arial;
+      background: linear-gradient(to right, #06b6d4, #4f46e5);
+      margin: 0;
+    }
+    .container {
+      width: 320px;
+      margin: 80px auto;
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      text-align: center;
+    }
+    input {
+      width: 90%;
+      padding: 10px;
+      margin: 10px 0;
+    }
+    button {
+      padding: 10px 20px;
+      background: #06b6d4;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    a {
+      display: block;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h2>Create Account</h2>
+
+  <input type="text" placeholder="Full Name"><br>
+  <input type="email" placeholder="Email"><br>
+  <input type="password" placeholder="Password"><br>
+
+  <button onclick="register()">Register</button>
+
+  <a href="login.html">Already have account? Login</a>
+</div>
+
+<script>
+function register() {
+  alert("Account Created Successfully (Demo)");
+}
+</script>
+
+</body>
+</html>
